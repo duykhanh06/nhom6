@@ -1,5 +1,0 @@
-﻿select tennv = case PHAI
-WHEN 'NAM' THEN 'MR.'+[TENNV]
-WHEN N'Nữ' THEN 'MRS.'+[TENNV]
-END
-FROM NHANVIEN
